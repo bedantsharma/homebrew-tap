@@ -1,25 +1,25 @@
 class BridgeScreen < Formula
   desc "Keeps track of where your Claude Code agents are: progress, tangents, and handoffs."
   homepage "https://github.com/bedantsharma/session-plugin"
-  version "0.1.1"
+  version "0.2.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/bedantsharma/session-plugin/releases/download/v0.1.1/bridge-screen-aarch64-apple-darwin.tar.xz"
-      sha256 "897cc45d81385433d7acc5a77c35eb139ba7597764c3fb8a9d6e75a116402dc1"
+      url "https://github.com/bedantsharma/session-plugin/releases/download/v0.2.1/bridge-screen-aarch64-apple-darwin.tar.xz"
+      sha256 "0a4805ee058b5024611bee6dbf3a46dc4441a9d03b89598996379bf63bcaaab5"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/bedantsharma/session-plugin/releases/download/v0.1.1/bridge-screen-x86_64-apple-darwin.tar.xz"
-      sha256 "9a3fc764aa88bd329e8beed3adfa4dbf8b52ce829f1fd022d8aaa38d371f3e39"
+      url "https://github.com/bedantsharma/session-plugin/releases/download/v0.2.1/bridge-screen-x86_64-apple-darwin.tar.xz"
+      sha256 "f2180ef0268f10260080d113e12d5ce67156b814e036cb0218ff09dddd795d4e"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/bedantsharma/session-plugin/releases/download/v0.1.1/bridge-screen-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "9e23ddfab3169eb0a0e283ea88d32e211fc6c5923165e41bbc810a6368c3be3f"
+      url "https://github.com/bedantsharma/session-plugin/releases/download/v0.2.1/bridge-screen-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "010bc2585552c00110787e4fd57bb5d352130b25f73ff47198d0105e736ca07e"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/bedantsharma/session-plugin/releases/download/v0.1.1/bridge-screen-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "922ea1f46259d12b30b7555b87cd3762df2994f51e526dd6fc47a544cccee19b"
+      url "https://github.com/bedantsharma/session-plugin/releases/download/v0.2.1/bridge-screen-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "89fd9c73beb7736c9e6f1d252d965ab9baa98e9c7ebb77af6e5cf016a2f0f375"
     end
   end
   license "PolyForm-Strict-1.0.0"
